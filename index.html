@@ -1,131 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DANNY - Personal Website</title>
-    <link rel="stylesheet" href="styles.css">
-    <style>
-        table, th, td {
-            border: 1px solid black;
-            border-collapse: collapse;
-        }
-        .personal-details {
-            margin-top: 30px;
-        }
-    </style>
-</head>
-<body>
-    <header>
-        <h1>Danny</h1>
-        <p>Biodata</p>
-    </header>
-
-    <section id="hobbies">
-        <h2>Hobbies</h2>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Web Design Mastery | Responsive Portfolio</title>
+  </head>
+  <body>
+    <nav>
+      <div class="nav__content">
+        <div class="logo"><a href="#">Afiq</a></div>
+        <label for="check" class="checkbox">
+          <i class="ri-menu-line"></i>
+        </label>
+        <input type="checkbox" name="check" id="check" />
         <ul>
-            <li>Playing Valorant</li>
-            <li>Playing FiveM</li>
-            <li>Playing Counter-Strike 2</li>
-            <li>Playing Mobile Legends</li>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Resume</a></li>
+          <li><a href="#">Portfolio</a></li>
+          <li><a href="#">Contact</a></li>
         </ul>
+      </div>
+    </nav>
+    <section class="section">
+      <div class="section__container">
+        <div class="content">
+          <p class="subtitle">HAI!</p>
+          <h1 class="title">
+            I'm <span>Afiq<br />a</span> Web Development Student
+          </h1>
+          <p class="description">
+            Welcome to my biodata website :>
+          </p>
+          <div class="action__btns">
+            <button class="hire__me">Hire Me</button>
+            <button class="portfolio">Portfolio</button>
+          </div>
+        </div>
+        <div class="image">
+          <img src="assets/profile.jpg" alt="profile" />
+        </div>
+      </div>
     </section>
-
-    <section id="campus-life">
-        <h2>Campus Life</h2>
-        <p>MY VALUABLE EXPERIENCES</p>
-
-        <!-- Add images -->
-        <img src="images/image1.jpg" alt="Campus Life Image 1">
-        <img src="images/image2.jpg" alt="Campus Life Image 2">
-
-        <!-- Add videos -->
-        <video controls>
-            <source src="videos/video1.mp4" type="video/mp4">
-            Your browser does not support the video tag.
-        </video>
-        <video controls>
-            <source src="videos/video2.mp4" type="video/mp4">
-            Your browser does not support the video tag.
-        </video>
-    </section>
-
-    <section class="personal-details">
-        <h2>Personal Details</h2>
-        <table>
-            <tr>
-                <td style="width:170px">Name></td>
-                <td >Muhammad Afiq Danial bin Basri</td>
-                <td>
-                <img src="./gambar.png" width="200">
-                </td>
-                </tr>
-                <tr>
-                <td>Date of Birth</th>
-                <td colspan="2">4/3/2002</td>
-                </tr>
-                <tr>
-                <td>Religion</td>
-                <td colspan="2">Islam</td>
-                </tr>
-                <tr>
-                <td>Race</td>
-                <td colspan="2">Melayu</td>
-                </tr>
-                <tr>
-                <td rowspan="4">Address</td>
-                <td style="width: 170px;">
-                Street
-                </td>
-                <td style="width: 170px;">No 551, JLN PCH 14, PERDANA COLLEGE
-                HEIGHTS</td>
-                </tr>
-                <td>
-                Town
-                </td><td>MANTIN</td>
-                </tr>
-                <td>
-                District
-                </td><td>SEREMBAN</td></tr>
-                <td>
-                State
-                </td><td>NEGERI SEMBILAN</td></tr>
-                </tr>
-                <tr>
-                <tdrowspan="3">Contact</td>
-                <td>
-                Mobile Phone
-                </td>
-                <td>019-2512511</td>
-                </tr>
-                <td>
-                Social Media
-                </td><td>@sayadanny.- on TikTok</td>
-                </tr>
-                <td>
-                Website
-                </td><td>Afiq.com.my</td></tr>
-                <tr>
-                <td>Course and Instituition</th>
-                <td colspan="2">SOFTWARE ENGINEER (UTHM)</td>
-                </tr>
-                <tr>
-                <td>Programming skills</th>
-                <td colspan="2">C, C#, JAVA, HTML</td>
-                </tr>
-                <tr>
-                <td >Personal Interest</th>
-                <td colspan="2">GAMING AND CODING</td>
-                </tr>
-                <tr>
-                <td >Future plan of 2024</th>
-                <td colspan="2">Build an application for UTHM (Lost and Found)</td>
-                </tr>
-        </table>
-    </section>
-
-    <footer>
-        <p>&copy; 2023 Muhammad Afiq Danial bin Basri</p>
-    </footer>
-</body>
+  </body>
 </html>
