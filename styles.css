@@ -349,11 +349,30 @@ button:hover {
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 400px;
+    min-height: 500px;
+}
+
+.campuslife .box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 1000px;
 }
 
 .card {
     height: 365px;
+    width: 335px;
+    padding: 20px 35px;
+    background: #47153f;
+    border-radius: 20px;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+
+.campuslife .card {
+    height: auto;
     width: 335px;
     padding: 20px 35px;
     background: #47153f;
@@ -381,4 +400,73 @@ h5 {
 .centered-image {
     max-width: 250px;
     max-height: 200px; 
+}
+
+.campuslife .centered-image {
+    max-width: 100%;
+    max-height: 100%;
+    display: none;
+}
+
+.campuslife .centered-image.active-image {
+    display: block;
+}
+
+.video-wrapper {
+    max-width: 100%;
+    max-height: 100%;
+    overflow: hidden;
+}
+
+.video-wrapper video {
+    width: 100%;
+    height: 100%;
+}
+
+.contact-me {
+    width: 100%;
+    height: 290px;
+    background: #191919;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.contact-me p {
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+
+.contact-me a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background: linear-gradient(45deg, #f06, #3cf);
+    border-radius: 50%;
+    font-size: 20px;
+    color: #fff;
+    text-decoration: none;
+    margin: 10px;
+}
+
+footer {
+    position: relative;
+    width: 100%;
+    height: 100px;
+    background: #101010;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+footer p {
+    font-size: 25px;
+    color: #fff;
+    font-weight: bold;
 }
